@@ -1,0 +1,62 @@
+# Diretórios do Visual Studio
+.vs/
+.vscode/
+_ReSharper*/  # Configurações do ReSharper
+*.suo         # Opções de solução
+*.user        # Configurações específicas do usuário
+*.userosscache
+*.sln.docstates
+
+# Diretórios de build
+bin/
+obj/
+debug/
+release/
+
+# Arquivos de log e relatórios
+*.log
+*.tlog
+*.cache
+*.pdb
+*.ilk
+*.map
+
+# Pacotes e dependências
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos gerados pelo sistema
+*.DS_Store     # MacOS
+Thumbs.db      # Windows
+*.class
+*.dll
+*.exe
+*.vsix
+
+# Arquivos do NuGet
+*.nuget
+.nuget/
+
+# Configurações temporárias
+*.tmp
+*.temp
+*.bak
+
+# Arquivos gerados pelo sistema de publicação
+publish/
+
+# Arquivos do IIS
+iisexpress/
+
+# Arquivos de backup do Visual Studio
+_backup/
+*.old
+*.orig
+
+# Arquivos gerados por ferramentas externas
+.idea/
+*.dotSettings.user
+*.DotSettings
